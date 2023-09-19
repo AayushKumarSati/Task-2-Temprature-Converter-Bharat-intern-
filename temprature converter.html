@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project in temprature converter</title>
+    <link rel="stylesheet" href="temprature.css">
+</head>
+
+<body>
+    <div class="main">
+        <form id="cal_temp" onsubmit="tempCalculator();return false">
+
+            <label for="temp-1">Enter The Temprature Converter</label>
+            <br>
+            <input type="number" id="temp-1" name="temp-1" value="0">
+            <select name="temp_cal " id="temp_cal">
+                <option value="cels">&#176;Celsius</option>
+                <option value="fah">&#176;Farhanite</option>
+
+            </select>
+            <br>
+            <input type="submit" name="temp-1" id="submit">
+            <br>
+            <div id="result">Result Now</div>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

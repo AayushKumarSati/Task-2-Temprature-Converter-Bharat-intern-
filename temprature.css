@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    animation: changeBg 1s linear infinite;
+
+}
+
+@keyframes changeBg {
+    0% {
+        background-color: #cb11ec;
+    }
+
+    20% {
+        background-color: #10d1be;
+    }
+
+    40% {
+        background-color: #2187da;
+    }
+
+    60% {
+        background-color: #fd440c;
+    }
+
+    80% {
+        background-color: rgb(164, 231, 28);
+    }
+
+    100% {
+        background-color: #c012df;
+    }
+}
+
+#cal_temp {
+    padding: 30px 65px;
+    min-height: 300px;
+    background-color: rgb(217, 39, 233);
+    box-shadow: rgba(0, 0, 0, 0.15)0px 1px 4px rgba(0, 0, 0, 0.26)0px 1px 3px;
+    border-radius: 10px;
+}
+
+label {
+    font-size: 40px;
+    ;
+    line-height: 60px;
+    font-family: cursive;
+    background-image: url(nature-3082832_1280.jpg);
+    background-position: center;
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-stroke: 5px;
+    color: transparent;
+}
+
+#temp-1 {
+
+    width: 130px;
+    height: 30px;
+    border-radius: 7px;
+    margin: 15px;
+    padding: 8px;
+    font-size: 22px;
+    font-weight: 600;
+    border: none;
+    outline: none;
+
+}
+
+#temp_cal {
+
+    width: 130px;
+    height: 30px;
+    border-radius: 7px;
+    margin: 15px;
+    font-size: 22px;
+    font-weight: 600;
+    border: none;
+    outline: none;
+}
+
+#submit {
+    width: 80px;
+    border-radius: 10px;
+    margin: 25px 0 25px 0;
+    font-size: 20px;
+    background-color: orangered;
+    color: white;
+    padding: 7px;
+    transition: all 1s ease;
+}
+
+#submit:hover {
+    background-color: cyan;
+    color: red;
+}
+
+#result {
+    font-size: 40px;
+    /* color: black; */
+}
